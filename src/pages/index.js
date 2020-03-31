@@ -17,10 +17,11 @@ const IndexPage = () => (
       description="Gina's BBQ is located in Market City Shopping Center. We're a family-owned restaurant serving traditional & Hawaiian-style Korean meats, soups & noodles.`,
       author: `@restaurantmarketinghawaii"
       keywords={[
-        `Chinese Restaurant`,
+        `Korean Restaurant`,
         `Hawaii Restaurant`,
-        `Hawaii Chinese Food`,
-        `Chinese Takeout`,
+        `Hawaii Korean Food`,
+        `Korean BBQ Takeout`,
+        `Korean BBQ Honolulu`,
       ]}
     />
     <HeaderIndex img={imgIndex} style={{ padding: "4rem 0rem" }}>
