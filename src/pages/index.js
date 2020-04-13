@@ -9,6 +9,7 @@ import Section from "../components/globals/section/Section"
 import ContactForm from "../components/ContactForm"
 import Intro from "../components/Intro"
 import imgIndex from "../images/bg/ginas-bbq-restaurant.jpg"
+import MenuIntegration from "../components/MenuIntegration"
 
 const IndexPage = () => (
   <Layout>
@@ -38,6 +39,7 @@ const IndexPage = () => (
     </HeaderIndex>
     <Section id="menu" style={{ marginTop: "2rem" }}>
       <Intro heading="our menu" />
+      <MenuIntegration />
     </Section>
     <Section id="information" style={{ marginTop: "2rem" }}>
       <Intro heading="how can we help you?" />
