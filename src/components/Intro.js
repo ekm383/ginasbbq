@@ -18,9 +18,11 @@ const IntroWrapper = styled.div`
   h2 {
     color: var(--mainBlue);
     letter-spacing: 1px;
-    line-height: 3.5rem;
-    margin-bottom: 1rem;
+    line-height: 3rem;
     font-size: 2rem;
+  }
+  p {
+    line-height: 1.2rem;
   }
   @media (max-width: 768px) {
     flex-basis: 100%;

@@ -15,6 +15,16 @@ class NavBarLinks extends Component {
         path: "#information",
         text: "information",
       },
+      {
+        id: 2,
+        path: "/about",
+        text: "about",
+      },
+      {
+        id: 3,
+        path: "/catering-menu",
+        text: "catering menu",
+      },
     ],
   }
   render() {
