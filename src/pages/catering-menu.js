@@ -35,7 +35,7 @@ const CateringMenu = () => (
         />
         <div className="container">
           <div>
-            <h4>SET A $8.50/PERSON</h4>
+            <h4>SET A $9.50/PERSON</h4>
             <ul>
               <li>Kalbi</li>
               <li>BBQ Beef</li>
@@ -48,7 +48,7 @@ const CateringMenu = () => (
             </ul>
           </div>
           <div>
-            <h4>SET B $9.00/PERSON</h4>
+            <h4>SET B $10.00/PERSON</h4>
             <ul>
               <li>Kalbi</li>
               <li>BBQ Beef</li>
@@ -61,7 +61,7 @@ const CateringMenu = () => (
             </ul>
           </div>
           <div>
-            <h4>SET C $9.50/PERSON</h4>
+            <h4>SET C $10.50/PERSON</h4>
             <ul>
               <li>Kalbi</li>
               <li>BBQ Beef</li>
@@ -76,7 +76,7 @@ const CateringMenu = () => (
             </ul>
           </div>
           <div>
-            <h4>SET D $10.00/PERSON</h4>
+            <h4>SET D $11.00/PERSON</h4>
             <ul>
               <li>Kalbi</li>
               <li>BBQ Beef</li>
@@ -92,7 +92,7 @@ const CateringMenu = () => (
             </ul>
           </div>
           <div>
-            <h4>SET E $11.00/PERSON</h4>
+            <h4>SET E $12.00/PERSON</h4>
             <ul>
               <li>Kalbi</li>
               <li>BBQ Beef</li>
@@ -109,7 +109,7 @@ const CateringMenu = () => (
             </ul>
           </div>
           <div>
-            <h4>SET F $13.50/PERSON</h4>
+            <h4>SET F $14.50/PERSON</h4>
             <ul>
               <li>Kalbi</li>
               <li>BBQ Chicken</li>
@@ -136,15 +136,15 @@ const CateringMenu = () => (
           <div>
             <h4>Meat Jun</h4>
             <ul>
-              <li>Small: $27.00</li>
-              <li>Medium: $42.00</li>
-              <li>Large: $80.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $47.00</li>
+              <li>Large: $90.00</li>
             </ul>
           </div>
           <div>
             <h4>Long Rice</h4>
             <ul>
-              <li>Small: $28.00</li>
+              <li>Small: $30.00</li>
               <li>Medium: $40.00</li>
               <li>Large: $75.00</li>
             </ul>
@@ -152,33 +152,41 @@ const CateringMenu = () => (
           <div>
             <h4>Fish Jun</h4>
             <ul>
-              <li>Small: $30.00</li>
-              <li>Medium: $45.00</li>
-              <li>Large: $90.00</li>
+              <li>Small: $33.00</li>
+              <li>Medium: $50.00</li>
+              <li>Large: $100.00</li>
             </ul>
           </div>
           <div>
             <h4>Bibim Kooksoo</h4>
             <ul>
-              <li>Small: $27.00</li>
-              <li>Medium: $35.00</li>
-              <li>Large: $70.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $40.00</li>
+              <li>Large: $75.00</li>
             </ul>
           </div>
           <div>
             <h4>Chicken Katsu</h4>
             <ul>
-              <li>Small: $27.00</li>
-              <li>Medium: $42.00</li>
-              <li>Large: $80.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $47.00</li>
+              <li>Large: $90.00</li>
             </ul>
           </div>
           <div>
             <h4>Assorted Veggies</h4>
             <ul>
-              <li>Small: $28.00 w/ Daegu</li>
-              <li>Medium: $35.00 w/ Daegu</li>
-              <li>Large: $70.00 w/ Daegu</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $40.00</li>
+              <li>Large: $75.00</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Assorted Veggies</h4>
+            <ul>
+              <li>Small: $33.00 w/ Daegu</li>
+              <li>Medium: $45.00 w/ Daegu</li>
+              <li>Large: $85.00 w/ Daegu</li>
             </ul>
           </div>
           <div>
@@ -192,89 +200,89 @@ const CateringMenu = () => (
           <div>
             <h4>Garlic Chicken</h4>
             <ul>
-              <li>Small: $28.00</li>
-              <li>Medium: $39.00</li>
-              <li>Large: $78.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $44.00</li>
+              <li>Large: $88.00</li>
             </ul>
           </div>
           <div>
             <h4>Hot Fried Chicken Wings</h4>
             <ul>
-              <li>Small: $8.00</li>
-              <li>Medium: $10.00</li>
-              <li>Large: $20.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $44.00</li>
+              <li>Large: $88.00</li>
             </ul>
           </div>
           <div>
             <h4>Pork Katsu</h4>
             <ul>
-              <li>Small: $30.00</li>
-              <li>Medium: $45.00</li>
-              <li>Large: $90.00</li>
+              <li>Small: $33.00</li>
+              <li>Medium: $50.00</li>
+              <li>Large: $100.00</li>
             </ul>
           </div>
           <div>
             <h4>Mandoo</h4>
             <ul>
-              <li>Small: $27.00</li>
-              <li>Medium: $42.00</li>
-              <li>Large: $80.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $47.00</li>
+              <li>Large: $90.00</li>
             </ul>
           </div>
           <div>
             <h4>Squash Jun</h4>
             <ul>
-              <li>Small: $27.00</li>
-              <li>Medium: $42.00</li>
-              <li>Large: $80.00</li>
+              <li>Small: $30.00</li>
+              <li>Medium: $47.00</li>
+              <li>Large: $90.00</li>
             </ul>
           </div>
           <div>
             <h4>Shrimp Tempura</h4>
             <ul>
-              <li>Small: $31.50</li>
-              <li>Medium: $50.00</li>
-              <li>Large: $95.00</li>
+              <li>Small: $34.00</li>
+              <li>Medium: $55.00</li>
+              <li>Large: $105.00</li>
             </ul>
           </div>
           <div>
             <h4>Deep Fried Oyster</h4>
             <ul>
-              <li>Small: $31.00</li>
-              <li>Medium: $50.00</li>
-              <li>Large: $95.00</li>
+              <li>Small: $34.00</li>
+              <li>Medium: $55.00</li>
+              <li>Large: $105.00</li>
             </ul>
           </div>
           <div>
             <h4>Potato Croquette</h4>
             <ul>
-              <li>Small: $31.00</li>
-              <li>Medium: $50.00</li>
-              <li>Large: $95.00</li>
+              <li>Small: $34.00</li>
+              <li>Medium: $55.00</li>
+              <li>Large: $105.00</li>
             </ul>
           </div>
           <div>
             <h4>Spicy Pork</h4>
             <ul>
-              <li>Small: $31.50</li>
-              <li>Medium: $52.50</li>
-              <li>Large: $100.00</li>
+              <li>Small: $34.00</li>
+              <li>Medium: $55.50</li>
+              <li>Large: $105.00</li>
             </ul>
           </div>
           <div>
             <h4>BBQ Spicy Ika</h4>
             <ul>
-              <li>Small: $33.00</li>
-              <li>Medium: $53.00</li>
-              <li>Large: $100.00</li>
+              <li>Small: $36.00</li>
+              <li>Medium: $58.00</li>
+              <li>Large: $105.00</li>
             </ul>
           </div>
           <div>
             <h4>Fried Rice</h4>
             <ul>
-              <li>Small: $27.00 | KimChee FR $28.00</li>
-              <li>Medium: $35.00 | KimChee FR $38.00</li>
-              <li>Large: $70.00 | KimChee FR $75.00</li>
+              <li>Small: $30.00 | KimChee FR $30.00</li>
+              <li>Medium: $40.00 | KimChee FR $40.00</li>
+              <li>Large: $75.00 | KimChee FR $75.00</li>
             </ul>
           </div>
         </div>
@@ -287,25 +295,25 @@ const CateringMenu = () => (
           <div>
             <h4>Kalbi (Marinated)</h4>
             <ul>
-              <li>Small (3lbs): $35.00</li>
-              <li>Medium (5lbs): $52.50</li>
-              <li>Large (10lbs): $105.00</li>
+              <li>Small (3lbs): $38.00</li>
+              <li>Medium (5lbs): $58.50</li>
+              <li>Large (10lbs): $115.00</li>
             </ul>
           </div>
           <div>
             <h4>BBQ Beef (Marinated)</h4>
             <ul>
-              <li>Small (3lbs): $30.00</li>
-              <li>Medium (5lbs): $45.00</li>
-              <li>Large (10lbs): $90.00</li>
+              <li>Small (3lbs): $33.00</li>
+              <li>Medium (5lbs): $50.00</li>
+              <li>Large (10lbs): $100.00</li>
             </ul>
           </div>
           <div>
             <h4>BBQ Chicken (Marinated)</h4>
             <ul>
-              <li>Small (3lbs): $28.50 | Spicy $30</li>
-              <li>Medium (5lbs): $43.50 | Spicy $45</li>
-              <li>Large (10lbs): $85.00 | Spicy $90</li>
+              <li>Small (3lbs): $30.50 | Spicy $33</li>
+              <li>Medium (5lbs): $48.50 | Spicy $50</li>
+              <li>Large (10lbs): $90.00 | Spicy $100</li>
             </ul>
           </div>
         </div>
