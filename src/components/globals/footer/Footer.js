@@ -34,7 +34,7 @@ class Footer extends Component {
             2919 Kapiolani Blvd, Honolulu, HI 96826
           </p>
           <p className="phone">(808) 735-7964</p>
-          <p>Open Daily 10:00am - 10:00pm</p>
+          <p>Open Daily 10:00am - 9:00pm</p>
           {this.state.icons.map(item => (
             <a
               href={item.path}
