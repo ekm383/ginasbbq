@@ -8,6 +8,7 @@ import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import imgIndex from "../images/bg/ginas-bbq-restaurant.jpg"
 import MenuIntegration from "../components/MenuIntegration"
+import Gallery from "../components/gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -37,6 +38,9 @@ const IndexPage = () => (
     </HeaderIndex>
     <Section id="menu" style={{ marginTop: "2rem" }}>
       <MenuIntegration />
+    </Section>
+    <Section style={{ width: "100vw", marginTop: "2rem" }}>
+      <Gallery />
     </Section>
   </Layout>
 )
