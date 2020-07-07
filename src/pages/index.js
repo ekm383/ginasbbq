@@ -28,7 +28,7 @@ const IndexPage = () => (
           title="Gina's BBQ"
           subtitle="Gina's BBQ is located in Market City Shopping Center. We're a family-owned restaurant serving traditional & Hawaiian-style Korean meats, soups & noodles."
         >
-          <a href="https://www.grindztogo.com/order/restaurant/ginas-bbq-menu/15">
+          <a href="https://www.grindztogo.com/single.php/order/restaurant/ginas-bbq/15?takeout=1">
             <Button>ORDER TAKEOUT</Button>
           </a>
         </Banner>

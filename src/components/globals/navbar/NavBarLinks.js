@@ -12,7 +12,7 @@ class NavBarLinks extends Component {
       },
       {
         id: 1,
-        path: "https://www.grindztogo.com/order/restaurant/ginas-bbq-menu/15",
+        path: "https://www.grindztogo.com/single.php/order/restaurant/ginas-bbq/15?takeout=1",
         text: "menu",
       },
       {
