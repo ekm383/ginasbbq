@@ -1,13 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SEO from "../components/seo"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
 import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import imgIndex from "../images/bg/ginas-bbq-restaurant.jpg"
-import MenuIntegration from "../components/MenuIntegration"
 import Gallery from "../components/gallery"
 
 const IndexPage = () => (
@@ -30,17 +28,17 @@ const IndexPage = () => (
           title="Gina's BBQ"
           subtitle="Gina's BBQ is located in Market City Shopping Center. We're a family-owned restaurant serving traditional & Hawaiian-style Korean meats, soups & noodles."
         >
-          <AniLink fade to="#menu">
+          <a href="https://www.grindztogo.com/order/restaurant/ginas-bbq-menu/15">
             <Button>ORDER TAKEOUT</Button>
-          </AniLink>
+          </a>
         </Banner>
       </Section>
     </HeaderIndex>
-    <Section id="menu" style={{ marginTop: "2rem" }}>
-      <MenuIntegration />
-    </Section>
-    <Section style={{ width: "100vw", marginTop: "2rem" }}>
+    <Section style={{ width: "100vw", marginTop: "0rem" }}>
       <Gallery />
+    </Section>
+    <Section style={{ width: "100vw", marginTop: "0rem" }}>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.579777707769!2d-157.81703678532963!3d21.288095385858476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006d84a65b2a91%3A0x2e879e9c80031478!2sGina&#39;s%20Barbeque!5e0!3m2!1sen!2sus!4v1594082283327!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </Section>
   </Layout>
 )

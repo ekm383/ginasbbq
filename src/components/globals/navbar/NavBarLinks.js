@@ -7,13 +7,13 @@ class NavBarLinks extends Component {
     links: [
       {
         id: 0,
-        path: "#menu",
-        text: "menu",
+        path: "/",
+        text: "home",
       },
       {
         id: 1,
-        path: "#information",
-        text: "information",
+        path: "https://www.grindztogo.com/order/restaurant/ginas-bbq-menu/15",
+        text: "menu",
       },
       {
         id: 2,

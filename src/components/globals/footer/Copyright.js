@@ -5,7 +5,7 @@ const Copyright = () => {
   return (
     <CopyrightWrapper className="copyright">
       &copy; Copyright 2020 | Gina's BBQ |
-      <a href="https://www.restaurantmarketinghawaii.com"> RMH</a>
+      <a href="https://www.grindztogo.com"> Built by Grindz To Go</a>
     </CopyrightWrapper>
   )
 }
